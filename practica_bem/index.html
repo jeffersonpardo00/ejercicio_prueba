@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <!--Bloques, elementos, modificadores-->
+    <!--Bloques: partes que queremos reutilizar-->
+    <!--elementos: componentes del bloque-->
+    
+    <div class="contenedor">
+        <div class="contenedor__cards">
+            
+            <div class="card"> <!----Bloque---->
+                <a href="#" class="card__thumbnail"> <!----elemento---->
+                    <img class="card__img" src="img/kanojo-ruka.png" alt="ruka, personaje del anime kanojo okasumi">
+                </a>
+                <div class="card__textos">
+                    <h3 class="card__titulo">
+                        <a href="#" class="card__enlace">Ruka chan</a>
+                    </h3>
+                        <p class="card__extracto">
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Vestibulum facilisis est 
+                            ante, sollicitudin mattis ipsum vulputate at. 
+                            Quisque pretium, odio eget aliquam congue, 
+                            felis tortor volutpat elit, eu accumsan nisl 
+                            risus placerat neque. Morbi consequat, leo id 
+                            ultrices cursus, purus ipsum sagittis arcu, 
+                            vitae tincidunt quam nunc quis nibh.
+                        </p>
+    
+                        <a class="boton boton--absolute" href="#"><!----Bloque---->
+                            <span class="boton__texto">Ver más</span> <!----Elemento---->
+                            <i class="boton__icono fas fa-arrow-right">
+                            </i>
+                        </a> 
+                   
+                </div>
+            </div>
+
+            <div class="card"> <!----Bloque---->
+                <a href="#" class="card__thumbnail"> <!----elemento---->
+                    <img class="card__img" src="img/kanojo-ruka.png" alt="ruka, personaje del anime kanojo okasumi">
+                </a>
+                <div class="card__textos">
+                    <h3 class="card__titulo">
+                        <a href="#" class="card__enlace">Ruka chan</a>
+                    </h3>
+                        <p class="card__extracto">
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Vestibulum facilisis est 
+                            ante, sollicitudin mattis ipsum vulputate at. 
+                            Quisque pretium, odio eget aliquam congue, 
+                            felis tortor volutpat elit, eu accumsan nisl 
+                            risus placerat neque. Morbi consequat, leo id 
+                            ultrices cursus, purus ipsum sagittis arcu, 
+                            vitae tincidunt quam nunc quis nibh.
+                        </p>
+    
+                        <a class="boton boton--absolute" href="#"><!----Bloque---->
+                            <span class="boton__texto">Ver más</span> <!----Elemento---->
+                            <i class="boton__icono fas fa-arrow-right">
+                            </i>
+                        </a> 
+                   
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <div class="frase"> <!----Bloque---->
+            <h2 class="frase__texto">Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Vestibulum facilisis est 
+                ante</h2>
+                <a href="#" role ="button" class="boton boton--verde">
+                    <span class="boton__texto">Ver más</span> <!----Elemento---->
+                    <i class="boton__icono fas fa-shopping-cart">
+                    </i>
+                </a>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</body>
+</html>

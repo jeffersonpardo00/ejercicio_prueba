@@ -1,0 +1,20 @@
+{
+  "name": "prueba_huge",
+  "version": "1.0.0",
+  "description": "Ejercicio para probar mis habilidades con javascrip",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "live-server"
+  },
+  "keywords": [
+    "skills",
+    "javascript",
+    "galeria"
+  ],
+  "author": "jefferson pardo",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

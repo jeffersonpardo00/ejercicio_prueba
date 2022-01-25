@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.contenedor{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor__cards{
+    margin: 70px 0;
+}
+
+.card{
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail
+{
+    width: 650;
+    height: 200px;
+    background: black;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img
+{
+    width: 100%;
+}
+
+.card__titulo
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace{
+    color: black;
+}
+
+.card__extracto
+{
+    line-height: 28px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403cc2;
+    transition: .3s ease all;
+}
+
+.boton__texto{
+    font-weight: 600;
+}
+
+.boton:hover{
+    background: #1B1881;
+    text-decoration: none;
+}
+
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+
+.boton--verde{
+    background: #7ba771;
+}
+
+.boton--verde:hover{
+    background: #6d9465;
+}
+
+.frase{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.frase__texto {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
